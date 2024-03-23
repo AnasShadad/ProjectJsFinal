@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="css/gallery.css">
+	
+</head>
+
+<body onload=" addTabIndex()">
+
+	<div id="image">
+	  Hover over an image below to display here.
+	</div>
+  
+	<img class="preview" alt="HTML" src="images/i1.png" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+  
+	<img class="preview" alt="css" src="images/i2.png" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+  	<img class="preview" src="images/i3.png" alt="js" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+  	<img class="preview" src="images/i4.jpg" alt="Responsive Design" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+  	<img class="preview" src="images/i5.jpg" alt="UI Design" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+  	<img class="preview" src="images/i6.png" alt="Frontend Frameworks" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+  	<img class="preview" src="images/i7.png" alt="Testing and Debugging" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+	
+	<script  src="js/gallery.js"></script>
+   
+  </body>
+</html>
